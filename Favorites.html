@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Musify-Free Music</title>
+        <link rel="stylesheet" href="Favorites.css">
+        <link rel="icon" type="img/icon" href="logo.ico">
+    </head>
+    <body>
+
+        <div class="header">
+                <div class="settings head">
+                <button onclick="settingsnav()">
+                    <img src="setting.png"></div>
+                </button>  
+                <div class="header-logo head">
+                     <img src="logo.png">
+                    <div class="logoname">Musify</div>
+                </div>
+                <div class="searchbar-container head">
+                    <input placeholder="Search here" class="searchbar">
+                    <button class="search-button">Search</button>
+                </div>
+        </div>  
+        <div class="navbar">
+            <a class="allmusiclink" href="MusicPlayer.html"><button class="nav allmusicnav" >All music<img src="all.png"></button></a>
+            <button class="nav favnav">Favorites<img src="fav.png"></button>
+        </div>
+        
+        
+
+
+
+
+            <div class="bottomnav">
+            <div class="leftsection">
+                0:00
+            </div>
+            <div class="middlesection">
+                <div class="previcon">
+                    <button>
+                      <img class="prev" src="prev.png">
+                    </button>
+                </div>
+                <div class="playicon">
+                    <button>
+                        <img class="play" src="play.png">
+                      </button>
+                </div>
+                <div class="nexticon">
+                    <button>
+                        <img class="next" src="next.png">
+                      </button>
+                </div>
+            </div>
+            <div class="rightsection">
+                0:00
+            </div>
+          </div>
+        </div>
+        <div class="settingsoption">
+
+            <button>Profile</button>
+            <button>Settings</button>
+      </div>
+      <button class="closebutton" onclick="closesettingsnav()">X</button>
+        <script src="Music.js"></script>
+        
+    </body>
+</html>
